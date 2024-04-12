@@ -1,0 +1,40 @@
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: #1C1678;
+}
+input {
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.add-btn {
+    padding: 8px 16px;
+    border: none;
+    background: green;
+    color: white;
+    letter-spacing: .8px;
+}
+table, th, td {
+    margin-top: 30px;
+    border: 3px solid white;
+    text-align: center;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 5px 30px;
+}
+thead{
+    font-size: 20px;
+    background: #FFF455;
+    color: #007F73;
+}
+.remove-btn {
+    border: none;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    letter-spacing: .8px;
+}
